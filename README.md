@@ -2,7 +2,7 @@
 
 React SDK for the **AgentCMS headless API**. Use it in any React app (Next.js, Vite, Remix, etc.) to fetch posts, site context, and list/filter content from an AgentCMS-backed site.
 
-**Requires** a live AgentCMS site (e.g. [@agentcms/core](https://github.com/mc2ventures/agentcms) on Astro + Cloudflare) that exposes `/api/agent/context` and `/api/agent/posts`.
+**Requires** a live AgentCMS site (e.g. [@agentcms/core](https://github.com/agentcms/agentcms) on Astro + Cloudflare) that exposes `/api/agent/context` and `/api/agent/posts`.
 
 ## Install
 
@@ -152,4 +152,4 @@ Types: `AgentCMSPost`, `PostListResponse`, `SiteContext`, `ListPostsParams`, `Ag
 
 ## Repo / publish
 
-This package lives in the [AgentCMS monorepo](https://github.com/mc2ventures/agentcms) and is published as `@agentcms/react`. It can be used against any deployed AgentCMS site; no direct dependency on Astro or Cloudflare in your React app.
+Published as `@agentcms/react`. Source: [github.com/agentcms/react](https://github.com/agentcms/react). It can be used against any deployed AgentCMS site; no direct dependency on Astro or Cloudflare in your React app.
